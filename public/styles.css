@@ -1,0 +1,34 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  .panel{
+      display: inline-block;
+    
+  }
+  .country-item{
+      padding:1%
+  }
+.banner .main_cover{
+    background-image: url('../src/component/images/cover.png');
+    height:450px;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+.banner .logo{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    width:100%;
+    height:60px;
+    color:black;
+    font-size:40px;
+    text-align: center;
+}
