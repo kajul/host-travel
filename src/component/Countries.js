@@ -8,13 +8,18 @@ const Countries = (props)=>{
         if(countriesdata){
             return countriesdata.map((item)=>{
                return( 
-               <Link to={`/countries/${item.name}`}>
+              
                <div class="panel panel-primary">
-               <div class="panel-heading">{item.name}</div>
+               <div class="panel-heading">{item.name}
+               
+               </div>
                <div class="panel-body">
-               <span>Currency:{item.currency}</span><br />
-               <span>Code: {item.code}</span></div>
-             </div></Link>
+                <img src={`images/covers/${item.image}`} className="img_container"/>
+                <span class="tagline">{item.tageline}</span>
+                <button type="button" class="btn-primary">Buy</button>
+               </div>
+        
+             </div>
              )
                 
             })

@@ -10,7 +10,23 @@
   }
   .panel{
       display: inline-block;
+      width:25%;
+      height: 55%;
     
+  }
+ .btn-primary{
+ height:20%;
+width:20%;
+
+            }
+  .img_container{
+      width:100%;
+      height:70%;
+  }
+  
+  .panel-body{
+
+    height:200px;
   }
   .country-item{
       padding:1%

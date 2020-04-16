@@ -13,15 +13,11 @@ class Home extends Component{
     }
 
   }
-
-
+  
   render(){
     console.log('countroes list',this.state.countries)
-
     return(
         <React.Fragment>
-  
-          <Header />
           <Countries class="country-item" countriesdata={this.state.countries}/>
           </React.Fragment>
 
